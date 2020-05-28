@@ -6,6 +6,7 @@ using Android.Widget;
 using ServicesAndroidAppSample.Service_connection;
 using ServicesAndroidAppSample.Services;
 using Android.Content;
+using ServicesAndroidAppSample.Broadcast_receiver;
 
 namespace ServicesAndroidAppSample
 {
@@ -40,12 +41,13 @@ namespace ServicesAndroidAppSample
         {
             if (serviceConnection == null) serviceConnection = new MusicServiceConnection(this);
 
-            Intent musicIntent = new Intent(this, typeof(MusicService));
-            BindService(musicIntent, this.serviceConnection, Bind.AutoCreate);
+            Intent musicIntent = new Intent(this, typeof(MusicStartedService));
+            StartService(musicIntent);
+            //BindService(musicIntent, this.serviceConnection, Bind.AutoCreate);
         }
 
-        private void StopButton_Click(object sender, System.EventArgs e) => 
-            UnbindService(serviceConnection);
+        private void StopButton_Click(object sender, System.EventArgs e) =>
+            /*UnbindService(serviceConnection);*/StopService(new Intent(this, typeof(MusicStartedIntentService)));
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

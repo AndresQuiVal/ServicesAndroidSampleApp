@@ -62,11 +62,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bound service connections\MusicBinder.cs" />
+    <Compile Include="Broadcast receiver\MusicBroadcast.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service connection\MusicServiceConnection.cs" />
     <Compile Include="Services\MusicService.cs" />
+    <Compile Include="Services\MusicStartedIntentService.cs" />
+    <Compile Include="Services\MusicStartedService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

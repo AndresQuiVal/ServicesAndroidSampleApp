@@ -261,3 +261,9 @@ C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\ob
 C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\android\src\crc644e84d9918c23f221\MusicStartedService.java
+C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\android\src\com\companyname\ServicesAndroidAppSample\MusicStartedServcice.java
+C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\android\src\crc644e84d9918c23f221\MusicStartedIntentService.java
+C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\android\src\com\companyname\ServicesAndroidAppSample\MusicStartedIntentService.java
+C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\android\src\crc641b9e0341a4938d67\MusicBroadcast.java
+C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\android\src\com\companyname\ServicesAndroidAppSample\MusicReceiverIntent.java
