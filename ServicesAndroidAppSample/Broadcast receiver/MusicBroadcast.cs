@@ -15,7 +15,7 @@ using ServicesAndroidAppSample.Services;
 
 namespace ServicesAndroidAppSample.Broadcast_receiver
 {
-    //[BroadcastReceiver(Enabled = true)]
+    [BroadcastReceiver(Enabled = true)]
     [IntentFilter(new[] { "com.companyname.ServicesAndroidAppSample.MusicReceiverIntent" })]
     public class MusicBroadcast : BroadcastReceiver
     {

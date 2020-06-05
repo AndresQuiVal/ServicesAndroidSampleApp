@@ -44,4 +44,11 @@
         android:text="Service paused, click on Start Service to initialize"
         android:gravity="center_horizontal"
         android:layout_marginTop="50dp"/>
+    <Button
+        android:text="Go to SQLite page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSQlite"
+        android:layout_margin="10dp"
+        android:background="#ffff0000" />
 </LinearLayout>

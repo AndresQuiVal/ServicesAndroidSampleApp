@@ -12,6 +12,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Provider;
 using ServicesAndroidAppSample.Broadcast_receiver;
+using ServicesAndroidAppSample.Bound_service_connections;
 
 namespace ServicesAndroidAppSample.Services
 {
@@ -21,12 +22,13 @@ namespace ServicesAndroidAppSample.Services
         private MediaPlayer player;
         private MusicBroadcast musicBroadcast;
 
-        public override IBinder OnBind(Intent intent) => null; // main method for bound services
+        public MusicBinder Binder { get; set; }
 
+        public override IBinder OnBind(Intent intent) => null;// main method for bound services
 
         [return: GeneratedEnum]
-        public override StartCommandResult OnStartCommand(Intent intent, [GeneratedEnum] StartCommandFlags flags, int startId) 
-            // Main method for started services
+        public override StartCommandResult OnStartCommand(Intent intent, [GeneratedEnum] StartCommandFlags flags, int startId)
+        // Main method for started services
         {
             musicBroadcast = new MusicBroadcast();
             player = MediaPlayer.Create(this, Settings.System.DefaultAlarmAlertUri);
