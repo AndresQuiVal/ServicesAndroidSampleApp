@@ -1,0 +1,40 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout">
+    <EditText
+        android:id="@+id/entryPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter permission type..."
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btnVerifyPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify permission enabled"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FF0000"/>
+    <Button
+        android:id="@+id/btnEnablePermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Enable permission"
+        android:background="#FF0"/>
+    <Button
+        android:id="@+id/btnNeedsRationale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_background"
+        android:text="Permissions needs rationale?"/>
+</LinearLayout>

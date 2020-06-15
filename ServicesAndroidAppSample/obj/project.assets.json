@@ -1710,6 +1710,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
+      "Xamarin.Android.Support.Compat >= 28.0.0.3",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.3",
       "Xamarin.Android.Support.CustomTabs >= 28.0.0.3",
       "Xamarin.Android.Support.Design >= 28.0.0.3",
@@ -1755,6 +1756,10 @@
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
+          "Xamarin.Android.Support.Compat": {
+            "target": "Package",
+            "version": "[28.0.0.3, )"
+          },
           "Xamarin.Android.Support.Core.Utils": {
             "target": "Package",
             "version": "[28.0.0.3, )"

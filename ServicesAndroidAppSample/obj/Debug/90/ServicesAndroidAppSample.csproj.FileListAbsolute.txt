@@ -298,3 +298,7 @@ C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\ob
 C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\ServicesAndroidAppSample.csprojAssemblyReference.cache
 C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\res\layout\userform.xml
 C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\android\src\crc64533a6edbde7719b1\UserFormActivity.java
+C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\android\src\crc6428abe9f69c8919b3\UserModel.java
+C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\res\layout\permissions_layout.xml
+C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\android\src\crc64533a6edbde7719b1\PermissionsActivity.java
+C:\Users\andre\source\repos\ServicesAndroidAppSample\ServicesAndroidAppSample\obj\Debug\90\res\drawable\button_background.xml

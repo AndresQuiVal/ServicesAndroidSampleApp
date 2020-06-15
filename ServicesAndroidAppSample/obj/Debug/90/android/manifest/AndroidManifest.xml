@@ -13,6 +13,7 @@
       </intent-filter>
     </activity>
     <activity android:label="NotificationActivity" android:name="crc64533a6edbde7719b1.NotificationActivity" />
+    <activity android:label="PermissionsActivity" android:name="crc64533a6edbde7719b1.PermissionsActivity" />
     <activity android:label="SQLite Activity" android:name="crc64533a6edbde7719b1.SQLiteActivity" />
     <activity android:label="UserFormActivity" android:name="crc64533a6edbde7719b1.UserFormActivity" />
     <service android:name="com.companyname.ServicesAndroidAppSample.MusicService" />

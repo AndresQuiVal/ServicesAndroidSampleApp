@@ -45,6 +45,14 @@ namespace ServicesAndroidAppSample.Helpers
         public void DeleteAll() => 
             this.connection.DeleteAll<UserModel>();
 
+        public void Delete<T>(T model) => this.connection.Delete(model);
+
+        internal void DeleteFromUserName<T>(Func<T, bool> func) where T : new()
+        {
+            T model = this.Retrieve<T>().Where(func).ElementAt(0);
+            this.Delete(model);
+        }
+
         public void CloseConnection() => this.connection.Close();
 
     }

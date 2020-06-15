@@ -18,7 +18,7 @@ namespace ServicesAndroidAppSample
     {
         private const string CHANNEL_ID = "MainChannel";
 
-        Button startButton, stopButton, sqlitePageButton;
+        Button startButton, stopButton, sqlitePageButton, permissionsPageButton;
         MusicServiceConnection serviceConnection;
 
         public TextView OutputText { get; set; }
@@ -35,10 +35,18 @@ namespace ServicesAndroidAppSample
             stopButton = FindViewById<Button>(Resource.Id.btnStopService);
             OutputText = FindViewById<TextView>(Resource.Id.outputText);
             sqlitePageButton = FindViewById<Button>(Resource.Id.btnSQlite);
+            permissionsPageButton = FindViewById<Button>(Resource.Id.btnManifestPermissions);
 
             startButton.Click += StartButton_Click;
             stopButton.Click += StopButton_Click;
             sqlitePageButton.Click += SqlitePageButton_Click;
+            permissionsPageButton.Click += PermissionsPageButton_Click;
+        }
+
+        private void PermissionsPageButton_Click(object sender, System.EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(PermissionsActivity));
+            StartActivity(intent);
         }
 
         private void SqlitePageButton_Click(object sender, System.EventArgs e)

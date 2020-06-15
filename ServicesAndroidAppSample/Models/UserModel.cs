@@ -13,7 +13,7 @@ using SQLite;
 
 namespace ServicesAndroidAppSample.Models
 {
-    public class UserModel
+    public class UserModel : Java.Lang.Object
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
