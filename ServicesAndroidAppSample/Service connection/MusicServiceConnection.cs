@@ -17,7 +17,6 @@ namespace ServicesAndroidAppSample.Service_connection
     public class MusicServiceConnection : Java.Lang.Object, IServiceConnection
     {
         MainActivity mainActivity;
-        public bool IsConnected { get; set; }
         public MusicBinder Binder { get; set; }
 
         public MusicServiceConnection(MainActivity mainActivity) => 

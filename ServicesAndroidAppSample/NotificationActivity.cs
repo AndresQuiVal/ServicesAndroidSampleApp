@@ -40,7 +40,10 @@ namespace ServicesAndroidAppSample
                 AlarmManager alarmManager = (AlarmManager)GetSystemService(AlarmService);
 
                 DateTime dt = DateTime.Now.AddMilliseconds(100000);
-                alarmManager.SetExactAndAllowWhileIdle(AlarmType.ElapsedRealtimeWakeup, 1000000000000000000, pendingAlarmIntent);
+                alarmManager.SetExactAndAllowWhileIdle(
+                    AlarmType.ElapsedRealtimeWakeup, 
+                    1000000000000000000, 
+                    pendingAlarmIntent);
             };
 
             btnJobScheduler.Click += (sender, args) =>

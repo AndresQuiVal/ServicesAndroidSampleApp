@@ -13,7 +13,7 @@ using Android.Graphics;
 
 namespace ServicesAndroidAppSample
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
     public class MainActivity : AppCompatActivity
     {
         private const string CHANNEL_ID = "MainChannel";
@@ -55,23 +55,18 @@ namespace ServicesAndroidAppSample
             StartActivity(intent);
         }
 
-        protected override void OnStart()
-        {
-            base.OnStart();
-        }
-
         private void StartButton_Click(object sender, System.EventArgs e)
         {
             if (serviceConnection == null) serviceConnection = new MusicServiceConnection(this);
 
-            Intent musicIntent = new Intent(this, typeof(MusicService));
-            //StartService(musicIntent);
+            Intent musicIntent = new Intent(this, typeof(/*MusicService*/MusicStartedService));
+            StartService(musicIntent);
             this.SendNotification("Music Service", "Your music service has started!", 1);
-            BindService(musicIntent, this.serviceConnection, Bind.AutoCreate);
+            //BindService(musicIntent, this.serviceConnection, Bind.AutoCreate);
         }
 
         private void StopButton_Click(object sender, System.EventArgs e) =>
-            UnbindService(serviceConnection);/*StopService(new Intent(this, typeof(MusicService)));*/
+            /*UnbindService(serviceConnection);*/StopService(new Intent(this, typeof(MusicStartedService)));
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -87,10 +82,10 @@ namespace ServicesAndroidAppSample
 
             var notificationChannel = 
                 new NotificationChannel(
-                    CHANNEL_ID, channelName, 
+                    CHANNEL_ID, channelName,
                     NotificationImportance.Max) { Description = channelDescription };
 
-            var notificationManager = GetSystemService(Context.NotificationService) as NotificationManager;
+            var notificationManager = GetSystemService(NotificationService) as NotificationManager;
             notificationManager.CreateNotificationChannel(notificationChannel);
         }
 
@@ -100,6 +95,11 @@ namespace ServicesAndroidAppSample
             intent.PutExtra("main_message", "This message is sent from MainActivity.cs!");
             PendingIntent pendingIntent = 
                 PendingIntent.GetActivity(this, 1, intent, PendingIntentFlags.OneShot);
+
+            NotificationCompat.BigPictureStyle bigImage = new NotificationCompat.BigPictureStyle();
+            bigImage.BigPicture(BitmapFactory.DecodeResource(Resources, Resource.Drawable.Xamarin));
+            //NotificationCompat = class which defines all the metadata of the 
+            //                      notifications to be created -> styles, creation of object builder
 
             //NotificationCompat.BigTextStyle bigText = new NotificationCompat.BigTextStyle();
             //bigText.BigText("This is a super super super super super super super super\n" +
@@ -128,6 +128,9 @@ namespace ServicesAndroidAppSample
                 .SetSound(RingtoneManager.GetDefaultUri(RingtoneType.Alarm));
 
             Notification notificationObject = builder.Build();
+
+            // notificationObject.Defaults |= NotificationDefaults.All;
+            // set more notification metadata even when notification object is created
 
             var notificationManager = (NotificationManager)GetSystemService(NotificationService);
             notificationManager.Notify(id, notificationObject);

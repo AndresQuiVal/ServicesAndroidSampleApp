@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Resources\values\colors.xml</FileName>
+    <Checksum>2322493412235187108519313653193847179251</Checksum>
+    <ModifiedTime>2020-06-16T10:51:26.0244817</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values\ic_launcher_background.xml</FileName>
+    <Checksum>75122186113422521141242622522323924812569141</Checksum>
+    <ModifiedTime>2020-05-26T10:10:38.0340806</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values\strings.xml</FileName>
+    <Checksum>8068885141180434718437253119176143142139</Checksum>
+    <ModifiedTime>2020-05-26T10:10:38.3881349</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values\styles.xml</FileName>
+    <Checksum>24811939876260247112160152253255215138101144</Checksum>
+    <ModifiedTime>2020-06-16T11:38:59.8677755</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\ServicesAndroidAppSample.en.xlf</FileName>
+    <Checksum>632424522512246011619279118151103181172253</Checksum>
+    <ModifiedTime>2020-06-18T09:50:15.6746084-05:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-en\colors.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4319929-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-en\ic_launcher_background.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4352834-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-en\strings.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4352834-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-en\styles.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4342933-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\ServicesAndroidAppSample.es.xlf</FileName>
+    <Checksum>20813478267621311487717412725312712734</Checksum>
+    <ModifiedTime>2020-06-18T09:50:15.6777601-05:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-es\colors.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4573015-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-es\ic_launcher_background.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4573015-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-es\strings.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4582967-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-es\styles.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4573015-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\ServicesAndroidAppSample.ja.xlf</FileName>
+    <Checksum>1196223563191150246872532910148183160</Checksum>
+    <ModifiedTime>2020-06-18T09:50:15.6797187-05:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-ja\colors.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4700819-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-ja\ic_launcher_background.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4700819-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-ja\strings.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4700819-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-ja\styles.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.4700819-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\ServicesAndroidAppSample.zh-Hans.xlf</FileName>
+    <Checksum>671796623411063541714421731681046209143</Checksum>
+    <ModifiedTime>2020-06-18T09:50:15.6725101-05:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-zh-rHans\colors.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.5025719-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-zh-rHans\ic_launcher_background.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.5035937-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-zh-rHans\strings.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.5035937-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Resources\values-zh-rHans\styles.xml</FileName>
+    <Checksum>90195152782421221341462311919911222819819980</Checksum>
+    <ModifiedTime>2020-06-18T09:50:17.5035937-05:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>

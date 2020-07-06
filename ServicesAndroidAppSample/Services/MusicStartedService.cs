@@ -31,23 +31,25 @@ namespace ServicesAndroidAppSample.Services
         // Main method for started services
         {
             musicBroadcast = new MusicBroadcast();
-            player = MediaPlayer.Create(this, Settings.System.DefaultAlarmAlertUri);
+            player = MediaPlayer.Create(this, Settings.System.DefaultNotificationUri);
             player.Looping = true;
             player.Start();
 
-            //Intent receiverIntent = new Intent();
-            //receiverIntent.SetAction("MusicReceiverIntent");
-            //receiverIntent.SetClass(this, typeof(MusicBroadcast));
+            Intent receiverIntent = new Intent();
+            receiverIntent.SetAction("MusicReceiverIntent");
+            receiverIntent.SetClass(this, typeof(MusicBroadcast));
             RegisterReceiver(musicBroadcast, new IntentFilter("com.companyname.ServicesAndroidAppSample.MusicReceiverIntent"));
-            //SendBroadcast(receiverIntent);
+            SendBroadcast(receiverIntent);
             return /*base.OnStartCommand(intent, flags, startId)*/StartCommandResult.Sticky;
+        
+        
         }
 
         public override void OnDestroy()
         {
             base.OnDestroy();
-            //player.Stop();
-            //player = null;
+            player.Stop();
+            player = null;
         }
     }
 }

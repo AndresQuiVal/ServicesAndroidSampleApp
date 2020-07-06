@@ -19,7 +19,7 @@ namespace ServicesAndroidAppSample.Job_Scheduler
 {
     [Service(
         Name = "com.companyname.ServicesAndroidAppSample.Job_Scheduler.ToastJobService",
-        Permission = "android.permission.BIND_JOB_SERVICE")]
+        Permission = "android.permission.BIND_JOB_SERVICE")] // permission required
     class ToastJobService : JobService
     {
         public JobParameters parameters;
